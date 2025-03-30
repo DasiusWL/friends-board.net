@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: Poppins,Segoe UI, sans-serif;
+}
+.logo{
+    font-size: 30px; 
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    cursor:pointer;
+    color: #edf0f1;
+    text-decoration: none;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #edf0f1;
+    font-size: 40px;
+}
+hr {
+    border: 2px solid rgba(0,136,169,1);
+    margin: 30px 0;
+}
+
+label {
+    color: #edf0f1;
+    font-size: 25px;
+    margin-left:20px
+}
+.group_name {
+    width: 300px;
+    height: 35px;
+    font-size: 11px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #edf0f1;
+    border: 2px solid rgba(0,136,169,1);
+    margin-left:20px
+}
+.group_desc {
+    width: 500px;
+    height: 100px;
+    font-size: 11px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #edf0f1;
+    border: 2px solid rgba(0,136,169,1);
+    margin-left:20px
+}
+.group_loc {
+    width: 300px;
+    height: 35px;
+    font-size: 11px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #edf0f1;
+    border: 2px solid rgba(0,136,169,1);
+    margin-left:20px
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    margin-left:20px
+}
+
+.backbtn {
+    margin-left:20px;
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color: rgb(207, 28, 28);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}
+
+.button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+.backbtn:hover {
+    background-color: rgb(207, 28, 28, 0.8);
+}

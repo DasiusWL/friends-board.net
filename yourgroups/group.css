@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: Poppins,Segoe UI, sans-serif;
+}
+
+h1,h2,h3, p {
+    color: #edf0f1;
+    margin-left: 10px;
+}
+
+.backbtn {
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(173, 28, 52,1);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backbtn:hover {
+    background-color: rgb(173, 28, 52,0.8);
+}
+
+hr {
+    border: 2px solid rgba(0,136,169,1);
+    margin: 30px 0;
+}
+
+#events {
+    margin-left: 10px;
+    color:#edf0f1;
+}
+#event_time,#title,#description {
+    color:#edf0f1;
+}
+
+.submit {
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}
+.submit:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+form input {
+    box-sizing: border-box;
+    flex-grow: 1;
+    min-width: 0;
+    height: 50px;
+    padding: 1em;
+    font: inherit;
+    border-radius: 10px 10px 10px 10px;
+    background: #37383f;
+    transition: 150ms ease;
+    border: 3px solid #37383f;
+    width: 300px;
+}
+form input:hover {
+    border-color: rgba(0,136,169,1);
+}
+form input:focus {
+    outline: none;
+    border-color: rgba(0,136,169,1);
+}
+.deletebtn {
+    margin-left: 1800px;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.deletebtn svg {
+    fill:rgb(173, 28, 52,1);
+}
+.deletebtn:hover svg {
+    fill: rgb(173, 28, 52,0.8);
+}
+
+.name {
+    font-size: 50px; 
+    font-weight: 800;
+}
